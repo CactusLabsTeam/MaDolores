@@ -1,0 +1,17 @@
+/*
+  font-family: 'Bebas Neue', cursive;
+  font-family: 'Inter', sans-serif;
+*/ 
+
+.link-navbar {
+	color: #222;
+	font-family: 'Inter', sans-serif;
+	font-weight: 400;
+	border-radius: 25px;
+	border: none;
+	transition: .3s ease;
+}
+
+.logo-navbar {
+	width: 90px;
+}

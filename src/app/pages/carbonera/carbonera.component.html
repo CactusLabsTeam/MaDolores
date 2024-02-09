@@ -1,0 +1,130 @@
+<!-- Hero -->
+  <section class="hero-sec" 
+    style="background-image: url('./assets/imgs/4.webp');">
+	    <div class="overlay-hero">
+				<div class="animate__animated animate__fadeIn animate__delay-1s wow">
+					<h1 class="title-hero">Carbonera</h1>
+				    <span class="small-text-hero">
+				    	Doña Lola
+				    </span>
+				</div>
+			</div>
+  </section>
+
+  <!-- Secion de Imagenes -->
+	<section class="seccion-space">
+		<article class="container">
+			<div class="row">
+				<div class="col-12 col-md-6 pointer"
+				data-bs-toggle="modal" data-bs-target="#img1">
+					<img class="w-100 border-radius-img shadow" src="./assets/imgs/4.webp" alt="">
+				</div>
+
+				<div class="col-12 col-md-6 pointer"
+				data-bs-toggle="modal" data-bs-target="#img2">
+					<img class="w-100 border-radius-img shadow" src="./assets/imgs/5.webp" alt="">
+				</div>
+			</div>
+		</article>
+	</section>
+	<!-- /Seccion de Imagenes -->
+
+  <!-- Descripcion de servicio -->
+	<section class="seccion-space">
+		<article class="container">
+			<div class="row pb-5">
+				<div class="col-12 text-center">
+					<h3 class="title-seccion">
+						Carbonera
+					</h3>
+					<span class="title-dec-seccion">
+						Productos premium Doña Lola
+					</span>
+				</div>
+
+				<div class="col-12 col-md-8 offset-0 offset-md-2 py-5">
+					<p class="texto-grande">
+						El origen de la marca 'Carbón Doña Lola' se remonta a la necesidad imperante de forjar una identidad propia que no solo nos distinga en el mercado nacional, sino que también trascienda fronteras. Nos enorgullece presentar un producto de carbón que se destaca por su calidad excepcional y duración incomparable en su categoría.
+					</p>
+
+					<p class="texto-grande">
+						En el corazón de nuestra operación, cada unidad de carbón es cuidadosamente envasada dentro de nuestras instalaciones. Este proceso minucioso es una parte esencial de nuestro compromiso con la consistencia y la excelencia. Nos aseguramos de que el primer paquete que sale de nuestras manos sea igual en calidad al último que llega a las manos de nuestros apreciados clientes.
+					</p>
+
+					<p class="texto-grande">
+						La dedicación a la calidad no se detiene aquí. Continuando con la herencia del Carbón Doña Lola, hemos ampliado nuestra línea de productos con una variedad de artículos bajo nuestra propia marca. Esta iniciativa tiene como objetivo principal ofrecer a nuestros clientes la mejor calidad, frescura y precio en cada producto que lleva nuestro sello. Desde los clásicos azúcar y canela hasta el auténtico piloncillo y las especias más selectas, cada artículo refleja nuestro compromiso inquebrantable con la satisfacción de nuestros clientes.
+					</p>
+
+					<p class="texto-grande">
+						En Carbón Doña Lola, no solo producimos carbón; creamos una experiencia culinaria que eleva cada asado, cada comida compartida. Nos enorgullece ser la elección confiable para quienes buscan lo mejor en sus momentos gastronómicos. Únete a nosotros en este viaje, donde la calidad es la piedra angular de todo lo que hacemos.
+					</p>
+				</div>
+		  </div>
+		</article>
+	</section>
+	<!-- /Descripcion de servicio -->
+
+	<!-- Formulario de contacto -->
+	<section class="bg-contactos py-5">
+		<article class="container">
+			<form action="" class="row">
+				<div class="col-12 mb-3">
+					<h3 class="title-form-contacto">
+						tienes dudas sobre nuestra carbonera
+					</h3>
+				</div>
+
+				<div class="col-12 col-md-6">
+					<input class="input-form-cont" type="text" placeholder="Nombre">
+				</div>
+
+				<div class="col-12 col-md-6">
+					<input class="input-form-cont" type="text" placeholder="Correo eñectrónico">
+				</div>
+
+				<div class="col-12">
+					<textarea name="" id="" class="textarea-form-cont" placeholder="Mensaje"></textarea>
+				</div>
+
+				<div class="col-12">
+					<button type="submit" class="btn-green">Cotizar</button>
+				</div>
+			</form>
+		</article>
+	</section>
+	<!-- /Formulario de contacto -->
+
+<!-- Boton Flotante Whatsapp -->
+<a href="https://api.whatsapp.com/send?phone=4381004007&text=Quiero%20m%C3%A1s%20informaci%C3%B3n%20sobre%20carbonera" 
+class="btn boton-flotante animate__animated animate__pulse animate__infinite" 
+[class.hide]="isScrolledToBottom">
+	<i class="fa-brands fa-whatsapp"></i>
+</a>
+<!-- /Boton Flotante Whatsapp -->
+
+
+<!-- Modales -->
+<!-- Modal Img 1 -->
+<div class="modal fade" id="img1" tabindex="-1" aria-labelledby="img1Label" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-xl">
+    <div class="modal-content">
+        <button type="button" class="btn-close" data-bs-dismiss="modal">
+        	<span class="material-symbols-outlined">close</span>
+        </button>
+        <img class="w-100 border-radius-img shadow" src="./assets/imgs/4.webp" alt="">
+    </div>
+  </div>
+</div>
+
+
+<!-- Modal Img 2 -->
+<div class="modal fade" id="img2" tabindex="-1" aria-labelledby="img1Label" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-xl">
+    <div class="modal-content">
+        <button type="button" class="btn-close" data-bs-dismiss="modal">
+        	<span class="material-symbols-outlined">close</span>
+        </button>
+        <img class="w-100 border-radius-img shadow" src="./assets/imgs/5.webp" alt="">
+    </div>
+  </div>
+</div>

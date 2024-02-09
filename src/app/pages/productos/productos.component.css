@@ -1,0 +1,110 @@
+/*
+  font-family: 'Bebas Neue', cursive;
+  font-family: 'Inter', sans-serif;
+*/
+
+.card-prod {
+	margin-top: 24px;
+	position: relative;
+	border: 1px solid rgba(0, 0, 0, .1);
+
+	border-top-left-radius: 12px;
+	border-top-right-radius: 12px;
+}
+
+.container-img-card {
+	width: 100%;
+	height: 250px;
+	position: relative;
+
+	overflow: hidden;
+	background-color: rgba(0, 0, 0, .1);
+
+	border-top-left-radius: 12px;
+	border-top-right-radius: 12px;
+
+}
+
+.img-prod {
+	width: 100%;
+	height: 250px;
+	object-fit: cover;
+	transition: .5s ease;
+}
+
+.card-prod:hover  .img-prod {
+	transform: scale(1.1);
+	transition: .5s ease;
+}
+
+.container-body-prod {
+	padding: 12px;
+}
+
+.marca-prod {
+	font-family: 'Inter', sans-serif;
+	font-weight: 500;
+	font-size: 14px;
+	display: block;
+	color: #255C6C;
+}
+
+.title-prod {
+	font-family: 'Bebas Neue', cursive;
+	margin-top: 12px;
+}
+
+.container-estrellas i {
+	color: #FEC604;
+	padding: 2px;
+	font-size: 12px;
+}
+
+.texto-prod {
+	font-family: 'Inter', sans-serif;
+	font-weight: 400;
+	font-size: 13px;
+}
+
+.desde-prod {
+	font-family: 'Bebas Neue', cursive;
+	font-weight: 300;
+	margin-top: 10px;
+}
+
+.price-bloqueo {
+	font-family: 'Inter', sans-serif;
+	font-weight: 400;
+	font-size: 24px;
+}
+
+.night-prod {
+	font-family: 'Bebas Neue', cursive;
+	font-weight: 300;
+	font-size: 12px;
+}
+
+
+
+.market-prod::before {
+    position: absolute;
+    left: 0;
+    width: 0;
+    height: 2px;
+    bottom: 0;
+    content: '';
+    background: #89B245;
+    transition: all ease-in-out 0.5s;
+    z-index: 2; 
+    border-radius: 25px;
+}
+
+.market-prod:hover::before {
+    width: 98%;
+    transition: all ease-in-out 0.5s; 
+}
+
+.market-prod:hover {
+    transition: all ease-in-out 0.5s;
+    cursor: pointer;
+}

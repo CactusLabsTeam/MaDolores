@@ -1,1 +1,191 @@
-/* You can add global styles to this file, and also import other style files */
+/*
+  font-family: 'Bebas Neue', cursive;
+  font-family: 'Inter', sans-serif;
+*/
+
+
+
+/**************************************************
+- - - ESTILOS GENERALES  **************************
+**************************************************/
+.seccion-space {
+	padding: 32px 0px;
+}
+
+.seccion-space-gray {
+	background-color: #EFEDEE;
+	padding: 32px 0px;
+}
+
+.border-radius-img {
+	border-radius: 12px;
+	margin-bottom: 24px;
+	animation: fadeIn;
+}
+
+.pointer:hover {
+	cursor: pointer;
+}
+
+.btn-close {
+	height: 25px;
+	width: 25px;
+	background-color: #222;
+	color: #FFF;
+	border-radius: 50%;
+	margin-right: 0px;
+	opacity: .8;
+	border: none;
+	padding: 5px;
+	position: absolute;
+	top: 5px;
+	right: 5px;
+}
+
+.btn-close:hover {
+	opacity: 1;
+	color: #FFF;
+}
+
+
+
+/**************************************************
+- - - HERO  ***************************************
+**************************************************/
+.hero-sec {
+	position: relative;
+	height: 300px;
+
+	background-color: rgba(0, 0, 0, .1);
+	background-position: left;
+	background-size: cover;
+}
+
+.overlay-hero {
+	position: absolute;
+	background-color: rgba(255, 255, 255, .5);
+	text-align: center;
+
+	top: 0px;
+	left: 0px;
+	right: 0px;
+	bottom: 0px;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.title-hero {
+	font-family: 'Bebas Neue', cursive;
+	font-weight: 700;
+	font-size: 42px;
+	margin: 0px;
+	padding: 0px;
+}
+
+.small-text-hero {
+	font-family: 'Inter', sans-serif;
+	font-size: 12px;
+	margin: 0px;
+	padding: 3px 12px;	
+	font-weight: 400;
+	background-color: #037510;
+	color: rgba(255, 255, 255, .7);
+}
+
+
+
+/**************************************************
+- - - BOTONES  ************************************
+**************************************************/
+.btn-green {
+	font-family: 'Inter', sans-serif;
+	font-weight: 700;
+	background-color: #8caf44;
+	padding: 12px 24px;
+	border: 1px solid #8caf44;
+	border-radius: 3px;
+	color: #FFF;
+	transition: .3s ease;
+	text-decoration: none;
+}
+
+.btn-green:hover {
+	background-color: transparent;
+	padding: 12px 24px;
+	border: 1px solid #8caf44;
+	border-radius: 3px;
+	color: #8caf44;
+	transition: .3s ease;
+}
+
+
+
+/**************************************************
+- - - ESTILOS DE TEXTO  ***************************
+**************************************************/
+.title {
+	font-family: 'Bebas Neue', cursive;
+	color: #2f2f2f;
+	font-size: 32px;
+}
+
+.texto {
+	font-family: 'Inter', sans-serif;
+	color: #555;
+	font-size: 12px;
+}
+
+.text-justify {
+	text-align: justify;
+}
+
+.title-grande {
+	font-family: 'Bebas Neue', cursive;
+	color: #2f2f2f;
+	font-size: 42px;
+}
+
+.texto-grande {
+	font-family: 'Inter', sans-serif;
+	color: #555;
+	font-size: 16px;
+}
+
+.title-seccion {
+	font-family: 'Bebas Neue', cursive;
+	font-weight: 55px;
+	margin-bottom: 0px;
+	color: #007835;
+}
+
+.title-dec-seccion {
+	font-family: 'Inter', sans-serif;
+	font-weight: 300;
+}
+
+.title-card {
+	font-family: 'Bebas Neue', cursive;
+	font-weight: 45px;
+	margin: 24px 0px;
+	color: #2F2F2F;
+}
+
+@media screen and (max-width: 770px) {
+	.title {
+		font-family: 'Bebas Neue', cursive;
+		color: #2f2f2f;
+		font-size: 24px;
+	}
+}
+
+
+
+
+
+
+
+
+
+

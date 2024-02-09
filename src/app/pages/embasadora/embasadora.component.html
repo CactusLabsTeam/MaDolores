@@ -1,0 +1,130 @@
+<!-- Hero -->
+  <section class="hero-sec" 
+    style="background-image: url('./assets/imgs/4.webp');">
+	    <div class="overlay-hero">
+				<div class="animate__animated animate__fadeIn animate__delay-1s wow">
+					<h1 class="title-hero">Embasadora</h1>
+				    <span class="small-text-hero">
+				    	Doña Lola
+				    </span>
+				</div>
+			</div>
+  </section>
+
+  <!-- Secion de Imagenes -->
+	<section class="seccion-space">
+		<article class="container">
+			<div class="row">
+				<div class="col-12 col-md-6 pointer"
+				data-bs-toggle="modal" data-bs-target="#img1">
+					<img class="w-100 border-radius-img shadow" src="./assets/imgs/4.webp" alt="">
+				</div>
+
+				<div class="col-12 col-md-6 pointer"
+				data-bs-toggle="modal" data-bs-target="#img2">
+					<img class="w-100 border-radius-img shadow" src="./assets/imgs/5.webp" alt="">
+				</div>
+			</div>
+		</article>
+	</section>
+	<!-- /Seccion de Imagenes -->
+
+  <!-- Descripcion de servicio -->
+	<section class="seccion-space">
+		<article class="container">
+			<div class="row pb-5">
+				<div class="col-12 text-center">
+					<h3 class="title-seccion">
+						Embasadora
+					</h3>
+					<span class="title-dec-seccion">
+						Productos premium Doña Lola
+					</span>
+				</div>
+
+				<div class="col-12 col-md-8 offset-0 offset-md-2 py-5">
+					<p class="texto-grande">
+						Prosiguiendo con la rica herencia del Carbón Doña Lola, nos embarcamos en la creación de una variada gama de productos bajo nuestra propia marca, con el firme propósito de mantener los estándares de calidad, frescura y precio que nuestros clientes merecen.
+					</p>
+
+					<p class="texto-grande">
+						Esta nueva línea de productos abarca desde las opciones más tradicionales, como el azúcar y la canela, hasta auténticos tesoros culinarios como el piloncillo y las especias más selectas. Cada artículo es cuidadosamente seleccionado y elaborado para ofrecer una experiencia gastronómica única y satisfactoria.
+					</p>
+
+					<p class="texto-grande">
+						En nuestra búsqueda constante por la excelencia, nos esforzamos por asegurar que cada producto lleve consigo la esencia de la calidad que ha caracterizado a Carbón Doña Lola desde sus inicios. La frescura de los ingredientes y el compromiso con los precios justos son pilares fundamentales en nuestra filosofía, asegurando así que cada consumidor disfrute de lo mejor en cada bocado.
+					</p>
+
+					<p class="texto-grande">
+						Nos enorgullece presentar esta nueva extensión de la marca, donde la pasión por la calidad y la autenticidad se reflejan en cada producto que lleva nuestro nombre. Estamos emocionados de seguir acompañando a nuestros clientes en sus experiencias culinarias, ofreciendo productos que no solo alimentan, sino que también inspiran
+					</p>
+				</div>
+		  </div>
+		</article>
+	</section>
+	<!-- /Descripcion de servicio -->
+
+	<!-- Formulario de contacto -->
+	<section class="bg-contactos py-5">
+		<article class="container">
+			<form action="" class="row">
+				<div class="col-12 mb-3">
+					<h3 class="title-form-contacto">
+						tienes dudas sobre nuestra embasadora
+					</h3>
+				</div>
+
+				<div class="col-12 col-md-6">
+					<input class="input-form-cont" type="text" placeholder="Nombre">
+				</div>
+
+				<div class="col-12 col-md-6">
+					<input class="input-form-cont" type="text" placeholder="Correo eñectrónico">
+				</div>
+
+				<div class="col-12">
+					<textarea name="" id="" class="textarea-form-cont" placeholder="Mensaje"></textarea>
+				</div>
+
+				<div class="col-12">
+					<button type="submit" class="btn-green">Cotizar</button>
+				</div>
+			</form>
+		</article>
+	</section>
+	<!-- /Formulario de contacto -->
+
+<!-- Boton Flotante Whatsapp -->
+<a href="https://api.whatsapp.com/send?phone=4381004007&text=Quiero%20m%C3%A1s%20informaci%C3%B3n%20sobre%20carbonera" 
+class="btn boton-flotante animate__animated animate__pulse animate__infinite" 
+[class.hide]="isScrolledToBottom">
+	<i class="fa-brands fa-whatsapp"></i>
+</a>
+<!-- /Boton Flotante Whatsapp -->
+
+
+<!-- Modales -->
+<!-- Modal Img 1 -->
+<div class="modal fade" id="img1" tabindex="-1" aria-labelledby="img1Label" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-xl">
+    <div class="modal-content">
+        <button type="button" class="btn-close" data-bs-dismiss="modal">
+        	<span class="material-symbols-outlined">close</span>
+        </button>
+        <img class="w-100 border-radius-img shadow" src="./assets/imgs/4.webp" alt="">
+    </div>
+  </div>
+</div>
+
+
+<!-- Modal Img 2 -->
+<div class="modal fade" id="img2" tabindex="-1" aria-labelledby="img1Label" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-xl">
+    <div class="modal-content">
+        <button type="button" class="btn-close" data-bs-dismiss="modal">
+        	<span class="material-symbols-outlined">close</span>
+        </button>
+        <img class="w-100 border-radius-img shadow" src="./assets/imgs/5.webp" alt="">
+    </div>
+  </div>
+</div>

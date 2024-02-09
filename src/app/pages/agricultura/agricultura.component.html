@@ -1,0 +1,89 @@
+<!-- Hero Seccion -->
+<section class="hero-sec" style="background-image: url('./assets/imgs/bg/agricultura.webp');">
+	<div class="overlay-hero">
+		<div class="animate__animated animate__fadeIn animate__delay-1s wow">
+			<h1 class="title-hero">AGRICULTURA</h1>
+		    <span class="small-text-hero">Doña Lola</span>
+		</div>
+	</div>
+</section>
+<!-- /Hero Seccion -->
+
+
+<!-- Seccion de descripción Agricultura -->
+<section class="seccion-space">
+	<article class="container">
+		<div class="row">
+			<div class="col-12 col-md-4 text-center pointer mb-4 animate__animated animate__fadeIn animate__delay-2s wow" [routerLink]="['/detailagricultura', 'serv1']">
+				<div class="p-2">
+					<img class="w-100" src="./assets/imgs/7.webp" 
+					alt="Nivelación de tierras por vía satelital">
+					<h3 class="title-card">Nivelación de tierras por vía satelital</h3>
+					<p class="texto text-justify">
+						Hoy en día debido a la crisis que estamos viviendo por falta de agua nos corresponde como agricultores el ayudar a eficientar este valioso recurso.
+					</p>
+				</div>
+			</div>
+
+
+			<div class="col-12 col-md-4 text-center pointer mb-4 animate__animated animate__fadeIn animate__delay-2s wow" [routerLink]="['/detailagricultura', 'serv2']">
+				<div class="p-2">
+					<img class="w-100" src="./assets/imgs/10.webp" 
+					alt="Fumigación con dron agricola">
+					<h3 class="title-card">Fumigación con dron agricola</h3>
+					<p class="texto text-justify">
+						¿Te gustaría fumigar una hectárea en menos de 10 minutos? 
+                        deja de imaginarlo nosotros te ayudamos.
+					</p>
+				</div>
+			</div>
+
+
+			<div class="col-12 col-md-4 text-center pointer mb-4 animate__animated animate__fadeIn animate__delay-2s wow" [routerLink]="['/detailagricultura', 'serv3']">
+				<div class="p-2">
+					<img class="w-100" src="./assets/imgs/9.webp" 
+					alt="Manufactura de ollas de agua">
+					<h3 class="title-card">Manufactura de ollas de agua</h3>
+					<p class="texto text-justify">
+						Tener un reservorio de agua para regar las parcelas y no parar la producción es impredecible.
+					</p>
+				</div>
+			</div>
+
+
+			<div class="col-12 col-md-4 text-center pointer mb-4 animate__animated animate__fadeIn animate__delay-2s wow" [routerLink]="['/detailagricultura', 'serv4']">
+				<div class="p-2">
+					<img class="w-100" src="./assets/imgs/9.webp" 
+					alt="Piloto automatico para tractor">
+					<h3 class="title-card">Piloto automatico para tractor</h3>
+					<p class="texto text-justify">
+						El piloto automático para tractor es un sistema que nos permite trazar líneas completamente rectas.
+					</p>
+				</div>
+			</div>
+
+
+			<div class="col-12 col-md-4 text-center pointer mb-4 animate__animated animate__fadeIn animate__delay-2s wow" [routerLink]="['/detailagricultura', 'serv5']">
+				<div class="p-2">
+					<img class="w-100" src="./assets/imgs/9.webp" 
+					alt="Maquila de maquinaria agrícola">
+					<h3 class="title-card">Maquila de maquinaria agrícola</h3>
+					<p class="texto text-justify">
+						Una buena preparación de suelos nos acercan aún más a obtener alto rendimiento en nuestros cultivos.
+					</p>
+				</div>
+			</div>
+		</div>
+	</article>
+</section>
+<!-- /Seccion de descripción Agricultura -->
+
+
+
+<!-- Boton Flotante Whatsapp -->
+<a href="https://api.whatsapp.com/send?phone=4422038783&text=Quiero%20m%C3%A1s%20informaci%C3%B3n%20sobre%20ganader%C3%ADa" 
+class="btn boton-flotante animate__animated animate__pulse animate__infinite" 
+[class.hide]="isScrolledToBottom">
+	<i class="fa-brands fa-whatsapp"></i>
+</a>
+<!-- /Boton Flotante Whatsapp -->
